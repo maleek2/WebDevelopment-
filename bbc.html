@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   #topbar{
+     width: 1500px;
+     height: 50px;
+     margin:0 auto; 
+     /* background-color: indianred; */
+   }
+   body{
+     margin:0;
+    font-family:  ReithSans,Arial,Helvetica,freesans,sans-serif; 
+   }
+   #bbcLogo{
+     margin-top: 10px;
+     width: 85px;
+     float:left; 
+     margin-right: 8px;
+   }
+   .topBarSection{
+     height: 100%;
+     float: left;
+     border-left: 1px #cccccc solid;
+   }
+   #signIn img{
+    margin-top: 13px;
+    margin-left:5px;
+     width:25px; 
+     float: left;
+   }
+   #signInText{
+     position: relative; 
+     left: 8px; 
+     top:14px;
+     font-weight: bold;
+     font-size: 90%;
+     float:left;
+     padding-right:100px; 
+     
+   }
+   .topbar-menu{
+     font-weight: bold;
+     font-size: 90%;
+     padding: 13px 23px 0 23px; 
+     height: 37px;
+   }
+   #arrowMore{
+     width:20px; 
+     margin-left: 60px;
+   }
+   #search{
+     margin-top: 8px;
+     background-color: #E4E4E4;
+     width:150px; 
+    padding: 7px 15px 6px 15px;
+     height: 17px;
+     border: none;
+     font-size: 100%;
+     float:left;
+     margin-left: 5px;
+   }
+   #searchIcon{
+     width:36px; 
+     margin-top: 8px;
+   }
+   .clear{
+     clear: both;
+   }
+   .menuBaContainer{
+     background-color: #BB1919;
+     width: 100%; 
+     height: 110px; 
+  
+   }
+   #newsSection{
+    width: 1500px;
+     height: 50px;
+     /* padding-top: 10px; */
+     margin:0 auto; 
+   }
+   h1{
+     padding:0px; 
+     margin: 0px;
+     color: white;
+     font-size: 50px;
+     font-weight: normal;
+     padding-top: 10px;
+     font-family: inherit;
+   }
+   .subMenue ul{
+    padding: 0;
+    list-style-type: none;
+
+   }
+   .subMenue ul li{
+   float: left;
+   border-right: 1px solid gray;
+   padding-right: 10px;
+  }
+  .subMenue ul a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .subMenue ul div li{
+   float: left;
+   border-right: 1px solid gray;
+   padding: 0px 10px;
+  }
+  .noBorder{
+    border: none !important;
+  }
+  #moreRedArrow{
+    width:10px;
+   position: relative;
+   top:-4px;
+  }
+
+
+ 
+   
+   
+
+
+  </style>
+</head>
+<body>
+  <div id="topbar"> 
+   <img src="bbcpictures/bbcLogo.PNG" id="bbcLogo">
+
+   <div id="signIn" class="topBarSection">
+    <img src="bbcpictures/signinLogo.PNG" ><span id ="signInText">Sign in</span>
+   </div>
+   <div class="topBarSection  topbar-menu">
+    Home
+ </div>
+   <div class="topBarSection  topbar-menu">
+      News
+   </div>
+   <div class="topBarSection  topbar-menu">
+    Sports
+ </div>
+ <div class="topBarSection  topbar-menu">
+  Reel
+</div>
+<div class="topBarSection  topbar-menu">
+  Worklife
+</div>
+<div class="topBarSection  topbar-menu">
+  Travel
+</div>
+<div class="topBarSection  topbar-menu">
+  Future
+</div>
+<div class="topBarSection  topbar-menu">
+  Culture
+</div>
+<div class="topBarSection  topbar-menu" style ="border-right:1px #cccccc solid ;">
+  More <img src="bbcpictures/moreArrow.PNG" id ="arrowMore">
+</div>
+<div class="topBarSection" id="searchSection">
+ <input type="text" placeholder="Search" id="search">
+ <input type="image" src="bbcpictures/search-icon.PNG" id="searchIcon">
+</div>
+  </div>
+  <div class="clear"></div>
+  <div class="menuBaContainer">
+    <div id="newsSection"> 
+      <h1>NEWS</h1>
+      <div class="subMenue">
+        <ul>
+          <a href=""><li>Home </li></a>
+          <div>
+          <a href=""> <li>US Election </li></a>
+          <a href=""><li>Coronavirus</li></a>
+          <a href=""> <li>Video</li></a>
+          <a href=""><li>World </li></a>
+          <a href=""><li>US & Canada</li></a>
+          <a href=""><li>UK</li></a>
+          <a href=""><li>Business</li></a>
+          <a href=""><li>Tech </li></a>
+          <a href=""><li>Science</li></a>
+          <a href=""><li>Stories </li></a>
+          <a href=""><li>Entertainment & Arts </li></a>
+          <li><a href="">Health </a></li>
+          <a href=""><li>In Pictures </li></a>
+          <a href=""><li class="noBorder">More <img src="bbcpictures/downArrorwRed.PNG" id="moreRedArrow"></li></a>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+</html>
