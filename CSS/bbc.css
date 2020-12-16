@@ -1,0 +1,181 @@
+#topbar{
+  width: 1390px;
+  height: 50px;
+  margin:0 auto; 
+  /* background-color: indianred; */
+}
+body{
+  margin:0;
+ font-family:  ReithSans,Arial,Helvetica,freesans,sans-serif; 
+}
+#bbcLogo{
+  margin-top: 10px;
+  width: 85px;
+  float:left; 
+  margin-right: 8px;
+}
+.topBarSection{
+  height: 100%;
+  float: left;
+  border-left: 1px #cccccc solid;
+}
+#signIn img{
+ margin-top: 13px;
+ margin-left:5px;
+  width:25px; 
+  float: left;
+}
+#signInText{
+  position: relative; 
+  left: 8px; 
+  top:14px;
+  font-weight: bold;
+  font-size: 90%;
+  float:left;
+  padding-right:100px; 
+  
+}
+.topbar-menu{
+  font-weight: bold;
+  font-size: 90%;
+  padding: 13px 23px 0 23px; 
+  height: 37px;
+}
+#arrowMore{
+  width:20px; 
+  margin-left: 60px;
+}
+#search{
+  margin-top: 8px;
+  background-color: #E4E4E4;
+  width:150px; 
+ padding: 7px 15px 6px 15px;
+  height: 17px;
+  border: none;
+  font-size: 100%;
+  float:left;
+  margin-left: 5px;
+}
+#searchIcon{
+  width:36px; 
+  margin-top: 8px;
+}
+.clear{
+  clear: both;
+}
+.menuBaContainer{
+  background-color: #BB1919;
+  width: 100%; 
+  height: 110px; 
+
+}
+#newsSection{
+ width: 1390px;
+  height: 50px;
+  /* padding-top: 10px; */
+  margin:0 auto; 
+}
+h1{
+  padding:0px; 
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+  padding-top: 10px;
+  font-family: inherit;
+}
+.subMenue ul{
+ padding: 0;
+ list-style-type: none;
+
+}
+.subMenue ul li{
+float: left;
+border-right: 1px solid gray;
+padding-right: 10px;
+}
+.subMenue ul a{
+ text-decoration: none;
+ color: whitesmoke;
+}
+.subMenue ul div li{
+float: left;
+border-right: 1px solid gray;
+padding: 0px 10px;
+}
+.noBorder{
+ border: none !important;
+}
+#moreRedArrow{
+ width:10px;
+position: relative;
+top:-4px;
+}
+.content{
+ width: 1390px;
+  height: 50px;
+  margin:0 auto; 
+}
+#tech{
+position: relative;
+top:8px;
+border-bottom: 3px solid #BB1919;
+font-family: 'JetBrains Mono', monospace;
+font-weight: bold;
+}
+.first-section{
+ margin-top: 30px;
+
+
+}
+.first-section img{
+ width:600px; 
+ float: left;
+ margin-right: 30px;
+}
+.first-section .first-content{
+ position: relative;
+ top:10px; 
+
+
+}
+.first-section .first-content p{
+ position: relative;
+ top:-20px;  
+ font-size: 21px;
+}
+.first-section .first-content h2{
+ font-size: 250%;
+ position: relative;
+
+ 
+}
+.time ul {
+ position: relative;
+ top:-30px;
+ list-style-type:none ;
+}
+.time ul li{
+ float: left;
+ padding: 5px;
+ height:13px;
+ border-right:1px solid gray; 
+}
+.time img{
+ position: relative;
+ top:-2px;
+ left:-5px; 
+ width:20px;
+ margin-right: 1px;
+ margin-left:0px ;
+}
+.bullet ul{
+ position: relative;
+top: 20px;
+
+ font-weight: bold; 
+}
+.bullet li{
+font-size: 20px;
+
+}
